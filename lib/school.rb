@@ -21,6 +21,7 @@ class School
       @roster[grade] = [student_name]
   end 
 end
+<<<<<<< HEAD
   
   def grade(grade)
     @grade = grade
@@ -34,4 +35,9 @@ end
     value.sort!
    end
   end
+=======
+  def grade(grade)
+    @student_name[grade]
+  end 
+>>>>>>> a5a9b43ec966948952a762c40b275416f0a3582e
  end 
